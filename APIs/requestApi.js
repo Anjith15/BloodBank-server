@@ -17,7 +17,7 @@ requestApp.post(
     try {
       // Get request details from body
       const requestData = req.body;
-      
+      console.log(requestData);
       // Add user id from token
       requestData.createdBy = req.userId;
       
